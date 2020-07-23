@@ -80,7 +80,7 @@ const App = () => {
         />
       </section>
 
-      <button onClick={onSubmit}>변경</button>
+      <button onClick={onSubmit}>submit</button>
     </div>
   );
 };
