@@ -1,6 +1,4 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-
 import ReactCountTimer from "./components/ReactCounterTimer";
 
 function App() {
