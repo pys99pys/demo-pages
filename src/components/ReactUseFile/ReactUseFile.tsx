@@ -28,7 +28,7 @@ const ReactUseFile: React.FC<IProps> = () => {
           <ul>
             {results.map((result) => (
               <li key={result}>
-                <img src={result} />
+                <img src={result} alt="result" />
               </li>
             ))}
           </ul>
