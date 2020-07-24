@@ -1,5 +1,5 @@
 import React from "react";
-import ReactCountTimer from "../../../react-count-timer/dist";
+import ReactCountTimer from "../../../../react-count-timer/dist";
 import "./ReactCounterTimer.css";
 
 const DEFAULT_COUNT = 500;
