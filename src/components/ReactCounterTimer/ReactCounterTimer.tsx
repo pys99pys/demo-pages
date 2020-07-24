@@ -1,5 +1,8 @@
 import React from "react";
 import ReactCountTimer from "../../../../react-count-timer/dist";
+import Template from "../Template";
+import Headline from "../Headline";
+import Section from "../Section";
 import "./ReactCounterTimer.css";
 
 const DEFAULT_COUNT = 500;
@@ -30,19 +33,18 @@ const App = () => {
   };
 
   return (
-    <div className="react-counter-timer">
-      <h1>react-count-timer</h1>
+    <Template className="react-counter-timer">
+      <Headline prioty={1}>react-count-timer</Headline>
 
-      <h2>
+      <Headline prioty={2}>
         <ReactCountTimer
           className="my-counter"
           count={count}
           duration={duration}
         />
-      </h2>
+      </Headline>
 
-      <section>
-        <h3>option</h3>
+      <Section title="option">
         <label>
           <input
             type="checkbox"
@@ -53,10 +55,9 @@ const App = () => {
           />
           use demical
         </label>
-      </section>
+      </Section>
 
-      <section>
-        <h3>count: {form.count}</h3>
+      <Section title={`count: ${form.count}`}>
         <input
           type="range"
           name="count"
@@ -66,10 +67,9 @@ const App = () => {
           value={form.count}
           onChange={onChange}
         />
-      </section>
+      </Section>
 
-      <section>
-        <h3>duration: {form.duration}</h3>
+      <Section title={`duration: ${form.duration}`}>
         <input
           type="range"
           name="duration"
@@ -78,10 +78,12 @@ const App = () => {
           value={form.duration}
           onChange={onChange}
         />
-      </section>
+      </Section>
 
-      <button onClick={onSubmit}>submit</button>
-    </div>
+      <Template.Submit>
+        <button onClick={onSubmit}>submit</button>
+      </Template.Submit>
+    </Template>
   );
 };
 

@@ -1,23 +1,4 @@
-.react-counter-timer {
-  text-align: center;
-}
-
 .react-counter-timer label input {
   margin-right: 5px;
   vertical-align: middle;
-}
-
-.react-counter-timer h1 {
-  font-size: 50px;
-}
-
-.react-counter-timer h2 {
-  font-size: 35px;
-}
-
-.react-counter-timer button {
-  width: 100px;
-  height: 45px;
-  margin-top: 3em;
-  font-size: 15px;
 }

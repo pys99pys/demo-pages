@@ -1,0 +1,13 @@
+.template {
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.template__submit {
+  margin-top: 3em;
+}
+
+.template__submit button {
+  padding: 15px 30px;
+  font-size: 15px;
+}
