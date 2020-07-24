@@ -9,7 +9,7 @@ function App() {
     case "react-count-timer":
       return <ReactCountTimer />;
 
-    case "raect-use-file":
+    case "react-use-file":
       return <ReactUseFile />;
 
     default:
