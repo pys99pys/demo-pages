@@ -1,0 +1,22 @@
+.react-use-file ul {
+  padding: 0;
+  list-style: none;
+}
+
+.react-use-file .preview ul {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.react-use-file .preview ul li {
+  margin: 0 3px;
+  height: 100px;
+  display: inline-block;
+}
+
+.react-use-file .preview ul li img {
+  width: auto;
+  max-height: 100%;
+}
